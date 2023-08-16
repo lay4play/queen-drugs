@@ -1,0 +1,27 @@
+{
+  "_fv": 6,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "joint",
+    "customModelName": "Normal",
+    "name": "Marijuana Joint",
+    "creativeTab": {
+      "value": "CUSTOM:Queens"
+    },
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 5,
+    "toolType": 2.0,
+    "damageCount": 0,
+    "destroyAnyBlock": false,
+    "stayInGridWhenCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [],
+    "hasGlow": false,
+    "onRightClickedInAir": {
+      "name": "MarijuanaJointRightClickedInAir"
+    }
+  }
+}

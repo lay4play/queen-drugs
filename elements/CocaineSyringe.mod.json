@@ -1,0 +1,27 @@
+{
+  "_fv": 6,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "ocaineyringe",
+    "customModelName": "Normal",
+    "name": "Cocaine Syringe",
+    "creativeTab": {
+      "value": "CUSTOM:Queens"
+    },
+    "stackSize": 4,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 2.0,
+    "damageCount": 5,
+    "destroyAnyBlock": false,
+    "stayInGridWhenCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [],
+    "hasGlow": false,
+    "onRightClickedInAir": {
+      "name": "CocaineSyringeRightClickedInAir"
+    }
+  }
+}
