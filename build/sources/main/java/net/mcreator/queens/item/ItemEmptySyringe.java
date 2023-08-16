@@ -36,7 +36,7 @@ public class ItemEmptySyringe extends ElementsQueens.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			setMaxDamage(0);
-			maxStackSize = 16;
+			maxStackSize = 64;
 			setUnlocalizedName("emptysyringe");
 			setRegistryName("emptysyringe");
 			setCreativeTab(TabQueens.tab);

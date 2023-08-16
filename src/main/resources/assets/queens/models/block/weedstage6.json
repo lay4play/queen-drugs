@@ -1,8 +1,0 @@
-{
-  "parent": "queens:custom/weed_stage6",
-  "textures": {
-    "all": "queens:blocks/weed_stage6",
-    "particle": "queens:blocks/weed_stage6",
-    "2": "queens:blocks/"
-  }
-}

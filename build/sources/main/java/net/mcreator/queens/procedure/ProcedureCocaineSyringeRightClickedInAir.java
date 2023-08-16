@@ -28,6 +28,10 @@ public class ProcedureCocaineSyringeRightClickedInAir extends ElementsQueens.Mod
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		ItemStack itemstack = (ItemStack) dependencies.get("itemstack");
+		if (itemstack.attemptDamageItem((int) 1, new Random(), null)) {
+			itemstack.shrink(1);
+			itemstack.setItemDamage(0);
+		}
 		if ((Math.random() >= 0.9)) {
 			entity.attackEntityFrom(DamageSource.GENERIC, (float) 2000);
 		}
@@ -37,9 +41,5 @@ public class ProcedureCocaineSyringeRightClickedInAir extends ElementsQueens.Mod
 			((EntityLivingBase) entity).addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, (int) 12000, (int) 5));
 		if (entity instanceof EntityLivingBase)
 			((EntityLivingBase) entity).addPotionEffect(new PotionEffect(MobEffects.SPEED, (int) 1200, (int) 10));
-		if (itemstack.attemptDamageItem((int) 1, new Random(), null)) {
-			itemstack.shrink(1);
-			itemstack.setItemDamage(0);
-		}
 	}
 }
