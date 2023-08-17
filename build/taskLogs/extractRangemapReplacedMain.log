@@ -1,7 +1,7 @@
 Unsupposrted library path: C:\Users\ricca\OneDrive\Desktop\porcaccio dio\queen-drugs\build\classes\java\api
 Unsupposrted library path: C:\Users\ricca\OneDrive\Desktop\porcaccio dio\queen-drugs\build\resources\api
 Symbol range map extraction starting
-Processing 19 files
+Processing 21 files
 startProcessing "net/mcreator/queens/ClientProxyQueens.java" md5: 2e5113e78eb70a875f0b9d6a1a81dfa1
 endProcessing "net/mcreator/queens/ClientProxyQueens.java"
 
@@ -55,6 +55,12 @@ endProcessing "net/mcreator/queens/procedure/ProcedureMarijuanaJointRightClicked
 
 startProcessing "net/mcreator/queens/procedure/ProcedureMarijuanaLeafFoodEaten.java" md5: 209bb6065b89151e359f6dbf7bb5a98c
 endProcessing "net/mcreator/queens/procedure/ProcedureMarijuanaLeafFoodEaten.java"
+
+startProcessing "net/mcreator/queens/procedure/ProcedureMarjiuanaPlantRightClicked.java" md5: 390a1ba8ad9101618eb8023a85dd807a
+endProcessing "net/mcreator/queens/procedure/ProcedureMarjiuanaPlantRightClicked.java"
+
+startProcessing "net/mcreator/queens/procedure/ProcedureMarjiuanaUpdateTick.java" md5: e07117e814d1fd30089eba619eb7ae25
+endProcessing "net/mcreator/queens/procedure/ProcedureMarjiuanaUpdateTick.java"
 
 startProcessing "net/mcreator/queens/procedure/ProcedureWhenGrassBroken.java" md5: f47bd5064da67fdc78e74fdb33c97767
 endProcessing "net/mcreator/queens/procedure/ProcedureWhenGrassBroken.java"

@@ -1,4 +1,4 @@
-Processing 19 files
+Processing 21 files
 Start Processing: net/mcreator/queens/ClientProxyQueens.java
 Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
 Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
@@ -505,6 +505,30 @@ Import: net.minecraft.entity.Entity
 Import: net.mcreator.queens.item.ItemMarijuanaLeaf
 Import: net.mcreator.queens.ElementsQueens
 End  Processing: net/mcreator/queens/procedure/ProcedureMarijuanaLeafFoodEaten.java
+
+Start Processing: net/mcreator/queens/procedure/ProcedureMarjiuanaPlantRightClicked.java
+New Key: class net/mcreator/queens/ElementsQueens
+New Key: class net/mcreator/queens/ElementsQueens
+FOUND CONSTR method net/mcreator/queens/procedure/ProcedureMarjiuanaPlantRightClicked/ProcedureMarjiuanaPlantRightClicked (Lnet/mcreator/queens/ElementsQueens;)V net/mcreator/queens/procedure/ProcedureMarjiuanaPlantRightClicked
+Rename method net/minecraft/util/math/Vec3i/getX ()I[920,924]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[963,967]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[1006,1010]::getZ->func_177952_p
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.event.entity.player.BonemealEvent
+Import: net.minecraftforge.common.MinecraftForge
+Import: net.minecraft.world.World
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.mcreator.queens.ElementsQueens
+End  Processing: net/mcreator/queens/procedure/ProcedureMarjiuanaPlantRightClicked.java
+
+Start Processing: net/mcreator/queens/procedure/ProcedureMarjiuanaUpdateTick.java
+New Key: class net/mcreator/queens/ElementsQueens
+New Key: class net/mcreator/queens/ElementsQueens
+FOUND CONSTR method net/mcreator/queens/procedure/ProcedureMarjiuanaUpdateTick/ProcedureMarjiuanaUpdateTick (Lnet/mcreator/queens/ElementsQueens;)V net/mcreator/queens/procedure/ProcedureMarjiuanaUpdateTick
+Import: net.mcreator.queens.ElementsQueens
+End  Processing: net/mcreator/queens/procedure/ProcedureMarjiuanaUpdateTick.java
 
 Start Processing: net/mcreator/queens/procedure/ProcedureWhenGrassBroken.java
 New Key: class net/mcreator/queens/ElementsQueens

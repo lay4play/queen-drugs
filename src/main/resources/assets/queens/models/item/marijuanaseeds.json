@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "queens:items/otem_u_eeds_von_ammy"
+    "layer0": "queens:items/semi"
   }
 }

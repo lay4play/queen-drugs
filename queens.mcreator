@@ -160,6 +160,28 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "MarjiuanaPlantRightClicked",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "MarjiuanaUpdateTick",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
@@ -167,13 +189,13 @@
   "language_map": {
     "en_us": {
       "item.marijuanaleaf.name": "Marijuana Leaf",
-      "item.emptysyringe.name": "Empty Syringe",
-      "item.marjiuanajoint.name": "Marjiuana Joint",
-      "item.marijuanaseeds.name": "Marijuana Seeds",
-      "item.needle.name": "Needle",
       "item.cocainedust.name": "Cocaine Dust",
       "item.cocainesyringe.name": "Cocaine Syringe",
-      "itemGroup.tabqueens": "Queens"
+      "item.emptysyringe.name": "Empty Syringe",
+      "itemGroup.tabqueens": "Queens",
+      "item.marjiuanajoint.name": "Marjiuana Joint",
+      "item.marijuanaseeds.name": "Marijuana Seeds",
+      "item.needle.name": "Needle"
     }
   },
   "workspaceSettings": {
