@@ -1,7 +1,7 @@
 Unsupposrted library path: C:\Users\ricca\OneDrive\Desktop\porcaccio dio\queen-drugs\build\classes\java\api
 Unsupposrted library path: C:\Users\ricca\OneDrive\Desktop\porcaccio dio\queen-drugs\build\resources\api
 Symbol range map extraction starting
-Processing 21 files
+Processing 28 files
 startProcessing "net/mcreator/queens/ClientProxyQueens.java" md5: 2e5113e78eb70a875f0b9d6a1a81dfa1
 endProcessing "net/mcreator/queens/ClientProxyQueens.java"
 
@@ -20,6 +20,18 @@ endProcessing "net/mcreator/queens/QueensVariables.java"
 startProcessing "net/mcreator/queens/ServerProxyQueens.java" md5: f0afed03bd159da93d3e0417473004e4
 endProcessing "net/mcreator/queens/ServerProxyQueens.java"
 
+startProcessing "net/mcreator/queens/block/BlockStage0.java" md5: f5c8bc457cc41e6ac67ea4a77c3cd471
+endProcessing "net/mcreator/queens/block/BlockStage0.java"
+
+startProcessing "net/mcreator/queens/block/BlockStage1.java" md5: 8ef084d5107e681482380a0b620f5fc6
+endProcessing "net/mcreator/queens/block/BlockStage1.java"
+
+startProcessing "net/mcreator/queens/block/BlockStage2.java" md5: 8992755c7b908a5df26e3590b50beb3c
+endProcessing "net/mcreator/queens/block/BlockStage2.java"
+
+startProcessing "net/mcreator/queens/block/BlockStage3.java" md5: cb6d431988eac6f115d72487c5ae8597
+endProcessing "net/mcreator/queens/block/BlockStage3.java"
+
 startProcessing "net/mcreator/queens/creativetab/TabQueens.java" md5: d7b50e69f8c1fe70b70c15169d4a9a19
 endProcessing "net/mcreator/queens/creativetab/TabQueens.java"
 
@@ -35,7 +47,7 @@ endProcessing "net/mcreator/queens/item/ItemEmptySyringe.java"
 startProcessing "net/mcreator/queens/item/ItemMarijuanaLeaf.java" md5: f41d7ddb92155cc006bc0ec191c1782b
 endProcessing "net/mcreator/queens/item/ItemMarijuanaLeaf.java"
 
-startProcessing "net/mcreator/queens/item/ItemMarijuanaSeeds.java" md5: efc36c253ea9ffbf3cbb0efc7d7e261b
+startProcessing "net/mcreator/queens/item/ItemMarijuanaSeeds.java" md5: d789b638e4f8a32cc80e5c41d2f10e7c
 endProcessing "net/mcreator/queens/item/ItemMarijuanaSeeds.java"
 
 startProcessing "net/mcreator/queens/item/ItemMarjiuanaJoint.java" md5: b36f6563ff10d93ee6e00dacbaf3db64
@@ -56,11 +68,20 @@ endProcessing "net/mcreator/queens/procedure/ProcedureMarijuanaJointRightClicked
 startProcessing "net/mcreator/queens/procedure/ProcedureMarijuanaLeafFoodEaten.java" md5: 209bb6065b89151e359f6dbf7bb5a98c
 endProcessing "net/mcreator/queens/procedure/ProcedureMarijuanaLeafFoodEaten.java"
 
-startProcessing "net/mcreator/queens/procedure/ProcedureMarjiuanaPlantRightClicked.java" md5: 390a1ba8ad9101618eb8023a85dd807a
-endProcessing "net/mcreator/queens/procedure/ProcedureMarjiuanaPlantRightClicked.java"
+startProcessing "net/mcreator/queens/procedure/ProcedureMarijuanaSeedsRightClickedOnBlock.java" md5: 777fd4e8ed3c0785ac1169986fdd40fc
+endProcessing "net/mcreator/queens/procedure/ProcedureMarijuanaSeedsRightClickedOnBlock.java"
 
-startProcessing "net/mcreator/queens/procedure/ProcedureMarjiuanaUpdateTick.java" md5: e07117e814d1fd30089eba619eb7ae25
-endProcessing "net/mcreator/queens/procedure/ProcedureMarjiuanaUpdateTick.java"
+startProcessing "net/mcreator/queens/procedure/ProcedureStage0BlockDestroyedByExplosion.java" md5: 47a98165b5f4a1d02d4d983f22c260d6
+endProcessing "net/mcreator/queens/procedure/ProcedureStage0BlockDestroyedByExplosion.java"
+
+startProcessing "net/mcreator/queens/procedure/ProcedureStage0BlockDestroyedByPlayer.java" md5: b08bf924074fef8901cb6d9a7277057d
+endProcessing "net/mcreator/queens/procedure/ProcedureStage0BlockDestroyedByPlayer.java"
+
+startProcessing "net/mcreator/queens/procedure/ProcedureStage0UpdateTick.java" md5: 26c129ed1947cef3eaa614ee57488669
+endProcessing "net/mcreator/queens/procedure/ProcedureStage0UpdateTick.java"
+
+startProcessing "net/mcreator/queens/procedure/ProcedureStage3BlockDestroyedByPlayer.java" md5: 243f3cb322c56eae68ac2f9a5ecca536
+endProcessing "net/mcreator/queens/procedure/ProcedureStage3BlockDestroyedByPlayer.java"
 
 startProcessing "net/mcreator/queens/procedure/ProcedureWhenGrassBroken.java" md5: f47bd5064da67fdc78e74fdb33c97767
 endProcessing "net/mcreator/queens/procedure/ProcedureWhenGrassBroken.java"

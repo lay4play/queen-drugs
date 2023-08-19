@@ -1,8 +1,12 @@
 item.marijuanaleaf.name=Marijuana Leaf
-item.cocainedust.name=Cocaine Dust
-item.cocainesyringe.name=Cocaine Syringe
 item.emptysyringe.name=Empty Syringe
-itemGroup.tabqueens=Queens
 item.marjiuanajoint.name=Marjiuana Joint
+tile.stage3.name=Stage0
+tile.stage0.name=Stage0
 item.marijuanaseeds.name=Marijuana Seeds
 item.needle.name=Needle
+item.cocainedust.name=Cocaine Dust
+item.cocainesyringe.name=Cocaine Syringe
+tile.stage2.name=Stage2
+tile.stage1.name=Stage1
+itemGroup.tabqueens=Queens

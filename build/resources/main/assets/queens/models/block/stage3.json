@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "queens:blocks/stage3",
+    "particle": "queens:blocks/stage3"
+  }
+}
